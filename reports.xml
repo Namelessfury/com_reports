@@ -2,6 +2,13 @@
 
 <extension type="component" method="upgrade">
     <name>Reports</name>
+    <creationDate>June 2022</creationDate>
+    <author>Pouya Daneshmand and Myles Caesar</author>
+    <license>GPL v3</license>
+    <version>0.0.5</version>
+    <description>
+        The Report System
+    </description>
   
     <namespace path="src/">PD\Component\Reports</namespace>
 
