@@ -1,5 +1,5 @@
 <?php
-namespace PD\Component\Reports\Site\View\Week;
+namespace PD\Component\Reports\Site\View\Simple;
 defined('_JEXEC') or die;
 
 use Joomla\CMS\MVC\View\HtmlView as BaseHtmlView;
