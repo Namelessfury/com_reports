@@ -9,12 +9,12 @@ class DisplayController extends BaseController {
     
     public function display($cachable = false, $urlparams = array()) {        
         $document = Factory::getDocument();
-        $document->setTitle('Reports');
+        $document->setTitle('Student Reports');
         $app = Factory::getApplication();
         $menu = $app->getMenu();
         $items = $menu->getMenu();
         foreach ($items as $item) {
-            if($item->title == 'Reports') {
+            if($item->title == 'Student Reports') {
                 $menu->setActive($item->id);
             }
         }
